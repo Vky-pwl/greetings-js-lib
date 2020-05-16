@@ -6,24 +6,27 @@
     }
 
     //hidden within the scope of IIFE and never directly accesable
-    var supportedLangs = ['en', 'hn'];
+    var supportedLangs = ['en', 'hn', 'pun'];
 
     // informal greetings
     var greetings = {
         'en': 'Hello',
-        'hn': 'Namaste'
+        'hn': 'Namaste',
+        'pun': 'Satshreeakaal'
     }
 
     // formal greetings
     var formalGreetings = {
         'en': 'Greetings',
-        'hn': 'Pranaam'
+        'hn': 'Pranaam',
+        'pun': 'Satshreeakaal'
     }
 
     //logger message
     var logMessages = {
         'en': 'Logged in',
-        'hn': ' Cahlu Saatr' // LOL
+        'hn': 'Chalu Saatr',
+        'pun': 'Chalu Saatr'
     }
 
     // prototype holds methods (to save memory spaces)
